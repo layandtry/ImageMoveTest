@@ -32,7 +32,7 @@
 
                 <ImageView
                     android:id="@+id/imageView1"
-                    android:layout_width="30dp"
+                    android:layout_width="50dp"
                     android:layout_height="20dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
@@ -63,7 +63,7 @@
 
                 <ImageView
                     android:id="@+id/ImageView01"
-                    android:layout_width="30dp"
+                    android:layout_width="50dp"
                     android:layout_height="20dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView android:id="@+id/ImageView02"
-                    android:layout_width="30dp"
+                    android:layout_width="50dp"
                     android:layout_height="20dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
@@ -122,7 +122,7 @@
 
                 <ImageView
                     android:id="@+id/ImageView03"
-                    android:layout_width="30dp"
+                    android:layout_width="50dp"
                     android:layout_height="20dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
@@ -153,7 +153,7 @@
 
                 <ImageView
                     android:id="@+id/ImageView04"
-                    android:layout_width="30dp"
+                    android:layout_width="50dp"
                     android:layout_height="20dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
@@ -184,7 +184,7 @@
 
                 <ImageView
                     android:id="@+id/ImageView05"
-                    android:layout_width="30dp"
+                    android:layout_width="50dp"
                     android:layout_height="20dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
