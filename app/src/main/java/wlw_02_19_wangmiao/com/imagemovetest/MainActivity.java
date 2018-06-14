@@ -25,18 +25,23 @@ public class MainActivity extends AppCompatActivity {
 
         child = new OnTouchListener() {//对新创建的image进行监听
 
-            int lastX, lastY;
-
+            int lastX, lastY;// 记录移动的最后的位置
+            // 获取Action
             public boolean onTouch(View v, MotionEvent event) {
                 // TODO Auto-generated method stub
 
                 int action = event.getAction();
                 switch (action) {
-                    case MotionEvent.ACTION_DOWN:
+                    case MotionEvent.ACTION_DOWN:// 按下
                         lastX = (int) event.getRawX();//获取事件发生时的坐标
                         lastY = (int) event.getRawY();
                         break;
-                    case MotionEvent.ACTION_MOVE:
+                    /**
+                     * layout(l,t,r,b) l Left position, relative to parent t Top
+                     * position, relative to parent r Right position, relative to
+                     * parent b Bottom position, relative to parent
+                     */
+                    case MotionEvent.ACTION_MOVE:   // 移动中动态设置位置
                         int dx = (int) event.getRawX() - lastX;
                         int dy = (int) event.getRawY() - lastY;
                         int left = v.getLeft() + dx;
@@ -109,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
 
                         image.setLayoutParams(params);
                         parentcontener.addView(image);
-                        image.setImageResource(R.drawable.light);
+                        image.setImageResource(R.drawable.books);
                         image.setOnTouchListener(child);
 
                         break;
