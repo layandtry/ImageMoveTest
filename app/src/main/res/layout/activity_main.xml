@@ -33,7 +33,7 @@
                 <ImageView
                     android:id="@+id/imageView1"
                     android:layout_width="80dp"
-                    android:layout_height="20dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/books" />
@@ -63,8 +63,8 @@
 
                 <ImageView
                     android:id="@+id/ImageView01"
-                    android:layout_width="80dp"
-                    android:layout_height="20dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/dress02" />
@@ -92,8 +92,8 @@
                 android:layout_height="wrap_content">
 
                 <ImageView android:id="@+id/ImageView02"
-                    android:layout_width="50dp"
-                    android:layout_height="20dp"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/jean01" />
@@ -123,7 +123,7 @@
                 <ImageView
                     android:id="@+id/ImageView03"
                     android:layout_width="80dp"
-                    android:layout_height="20dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/t_shirt" />
@@ -154,7 +154,7 @@
                 <ImageView
                     android:id="@+id/ImageView04"
                     android:layout_width="80dp"
-                    android:layout_height="20dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/socks" />
@@ -185,7 +185,7 @@
                 <ImageView
                     android:id="@+id/ImageView05"
                     android:layout_width="80dp"
-                    android:layout_height="20dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/hoodies" />
