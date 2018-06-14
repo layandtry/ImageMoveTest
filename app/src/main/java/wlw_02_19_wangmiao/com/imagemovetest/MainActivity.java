@@ -2,7 +2,6 @@ package wlw_02_19_wangmiao.com.imagemovetest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.app.Activity;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -21,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         DisplayMetrics dm = getResources().getDisplayMetrics();
         final int screenWidth = dm.widthPixels;
         final int screenHeight = dm.heightPixels - 50;//获取屏幕高度
-        ImageView home = (ImageView) findViewById(R.id.imageView1);
+        ImageView home = (ImageView) findViewById(R.id.BookImage);
         final OnTouchListener child;
 
         child = new OnTouchListener() {//对新创建的image进行监听
@@ -101,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
                         lastX = (int) event.getRawX();
                         lastY = (int) event.getRawY();
-                        ImageView parent = (ImageView) findViewById(R.id.imageView1);
+                        ImageView parent = (ImageView) findViewById(R.id.BookImage);
                         params = new LayoutParams(parent.getWidth(), parent
                                 .getHeight());
                         params.addRule(RelativeLayout.ALIGN_PARENT_LEFT);
@@ -151,7 +150,6 @@ public class MainActivity extends AppCompatActivity {
                         //每次都出现，可测试一下
 
                         break;
-
                 }
                 return true;
             }

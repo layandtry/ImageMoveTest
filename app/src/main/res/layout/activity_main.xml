@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/Current_items"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -26,12 +26,11 @@
             android:layout_height="fill_parent" >
 
             <RelativeLayout
-                android:id="@+id/RelativeLayout2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView1"
+                    android:id="@+id/BookImage"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
@@ -39,16 +38,16 @@
                     android:src="@drawable/books" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/BookQuantities"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/BookImage"
                     android:text="0"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/description"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -59,10 +58,10 @@
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/ImageView01"
+                    android:id="@+id/DressImage"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
@@ -70,16 +69,16 @@
                     android:src="@drawable/dress02" />
 
                 <TextView
-                    android:id="@+id/TextView01"
+                    android:id="@+id/DressQuantities"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/ImageView01"
+                    android:layout_toRightOf="@+id/DressImage"
                     android:text="0"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:id="@+id/TextView02"
+                    android:id="@+id/DressDescription"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -91,23 +90,24 @@
             <RelativeLayout android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView android:id="@+id/ImageView02"
+                <ImageView android:id="@+id/JeansImage"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/jean01" />
 
-                <TextView android:id="@+id/TextView04"
+                <TextView
+                    android:id="@+id/JeansQuantities"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/ImageView02"
+                    android:layout_toRightOf="@+id/JeansImage"
                     android:text="0"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:id="@+id/TextView03"
+                    android:id="@+id/JeansDescription"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -121,7 +121,7 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:id="@+id/ImageView03"
+                    android:id="@+id/TshirtImage"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
@@ -129,16 +129,16 @@
                     android:src="@drawable/t_shirt" />
 
                 <TextView
-                    android:id="@+id/TextView05"
+                    android:id="@+id/TshirtQuantities"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/ImageView03"
+                    android:layout_toRightOf="@+id/TshirtImage"
                     android:text="0"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:id="@+id/TextView06"
+                    android:id="@+id/TshirtDescription"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -152,7 +152,7 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:id="@+id/ImageView04"
+                    android:id="@+id/SocksImage"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
@@ -160,16 +160,16 @@
                     android:src="@drawable/socks" />
 
                 <TextView
-                    android:id="@+id/TextView08"
+                    android:id="@+id/SocksQuantities"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/ImageView04"
+                    android:layout_toRightOf="@+id/SocksImage"
                     android:text="0"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:id="@+id/TextView07"
+                    android:id="@+id/SockDescription"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -183,7 +183,7 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:id="@+id/ImageView05"
+                    android:id="@+id/HoodiesImage"
                     android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
@@ -191,21 +191,21 @@
                     android:src="@drawable/hoodies" />
 
                 <TextView
-                    android:id="@+id/TextView09"
+                    android:id="@+id/HoodiesQuantities"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/ImageView05"
+                    android:layout_toRightOf="@+id/HoodiesQuantities"
                     android:text="0"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:id="@+id/TextView10"
+                    android:id="@+id/HoodiesDescription"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
-                    android:text="袜子"
+                    android:text="卫衣"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </RelativeLayout>
         </LinearLayout>
@@ -219,7 +219,7 @@
         android:layout_below="@+id/linearLayout1" >
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/Package"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_alignParentLeft="true"
